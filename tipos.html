@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Computadoras - Mundo de las Computadoras</title>
+    <style>
+        /* General Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4; /* Light grey background as seen in image */
+            color: #333; /* Dark grey for general text */
+        }
+
+        /* SENA Logo and Header */
+        .sena {
+            text-align: center;
+            padding: 20px;
+        }
+        .sena img {
+            width: 100px; /* Adjust as needed */
+            height: auto;
+        }
+        .sena h2, .sena h3 {
+            color: #333; /* Assuming these headings are dark, not red, based on image */
+            margin: 5px 0;
+        }
+
+        /* Main Header (Red Bar) */
+        .header {
+            background-color: #ee312d; /* Distinct red from the image */
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        /* Navigation Bar */
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .navbar li {
+            margin-left: 20px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 0;
+            border-bottom: 2px solid transparent; /* Transparent border for hover effect */
+            transition: border-bottom 0.3s ease-in-out; /* Smooth transition */
+        }
+        .navbar a:hover {
+            border-bottom-color: white; /* White underline on hover */
+        }
+
+        /* Main Content Container */
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white; /* White background for the main content area */
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+        }
+
+        /* Headings within the container (e.g., Clasificación, Tipos y Características) */
+        .classification h2, .table-title {
+            color: #ee312d; /* Red color for main section titles */
+            border-bottom: 2px solid #eee; /* Light grey line below main titles */
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .classification ul {
+            list-style-type: disc; /* Standard disc for bullet points */
+            margin-left: 20px;
+            padding: 0;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse; /* Collapse borders for a clean look */
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd; /* Light grey borders for table cells */
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2; /* Slightly darker grey for table headers */
+            color: #333; /* Dark text for table headers */
+        }
+        td img {
+            max-width: 80px; /* Max width for images in the table */
+            height: auto;
+            display: block; /* Ensures images are centered horizontally if parent is text-align:center */
+            margin: auto; /* Center images in their cells */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="sena">
+        <img src="/image y video/logo.jpg" alt=" Logo">
+        <h2>Mundo de la computadora</h2>
+    
+    </div>
+
+    <div class="header">
+        <h1>Mundo de las Computadoras</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Historia</a></li>
+                <li><a href="tipos.html">Tipos</a></li>
+                <li><a href="#">Componentes</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container">
+        <section class="classification">
+            <h2>Clasificación</h2>
+            <p>Las computadoras se pueden clasificar según su tamaño, capacidad y el propósito para el que fueron diseñadas. A continuación, exploraremos algunos de los tipos más comunes:</p>
+            <ul>
+                <li>Computadoras de escritorio</li>
+                <li>Portátiles</li>
+                <li>Tablets</li>
+                <li>Servidores</li>
+                <li>Supercomputadoras</li>
+                <li>Microcontroladores (ejemplo adicional para viñetas)</li>
+                <li>Dispositivos móviles (ejemplo adicional para viñetas)</li>
+            </ul>
+
+            <h3 class="table-title">Tipos y Características</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tipo</th>
+                        <th>Necesidad</th>
+                        <th>Imagen</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Escritorio</td>
+                        <td>Uso en oficina y hogar. Potente y expandible.</td>
+                        <td><img src="https://via.placeholder.com/80x80?text=PC" alt="Computadora de Escritorio"></td>
+                    </tr>
+                    <tr>
+                        <td>Portátil</td>
+                        <td>Fácil de transportar. Integra todos los componentes.</td>
+                        <td><img src="https://via.placeholder.com/80x80?text=Laptop" alt="Computadora Portátil"></td>
+                    </tr>
+                    <tr>
+                        <td>Tablet</td>
+                        <td>Táctil, ligera y versátil. Ideal para consumo multimedia.</td>
+                        <td><img src="https://via.placeholder.com/80x80?text=Tablet" alt="Tablet"></td>
+                    </tr>
+                    <tr>
+                        <td>Servidor</td>
+                        <td>Gestión de datos y servicios en red.</td>
+                        <td><img src="https://via.placeholder.com/80x80?text=Server" alt="Servidor"></td>
+                    </tr>
+                    <tr>
+                        <td>Supercomputadora</td>
+                        <td>Rendimiento extremo para investigación científica.</td>
+                        <td><img src="https://via.placeholder.com/80x80?text=Supercomp" alt="Supercomputadora"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+</body>
+</html>
